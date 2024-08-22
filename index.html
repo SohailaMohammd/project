@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightGaze</title>
+    <link rel="icon" href="../images/photo_2024-08-19_04-44-35.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--start header-->
+    <header>
+        <div class="img">
+            <img src="images/logo.jpg" alt="InsightGaze">
+            <span>InsightGaze</span>
+
+        </div>
+        <ul>
+            <li class="active">
+                <i class="fa-solid fa-house" style="color: #c77529;"></i> <a href="#hOme">Home</a>
+            </li>
+            <li class="active"><i class="fa-solid fa-users-gear" style="color: #c77529;"></i><a
+                    href="#services">Services</a>
+            </li>
+            <li class="active"><i class="fa-regular fa-address-card" style="color: #c77529;"></i><a
+                    href="#aBout">About</a>
+            </li>
+            <li class="active"><i id="conn" class="fa-solid fa-phone-volume" style="color: #c77529;"></i><a
+                    href="#contact">Contact</a>
+            </li>
+            <li class="menu" onclick=showLinks()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </a></li>
+        </ul>
+        <ul class="links">
+            <li onclick="hideLinks()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li class="link"><i class="fa-solid fa-house" style="color: #c77529;"></i><a href="#hOme">home</a></li>
+            <li class="link"><i class="fa-solid fa-users-gear" style="color: #c77529;"></i><a
+                    href="#services">Services</a></li>
+            <li class="link"><i class="fa-regular fa-address-card" style="color: #c77529;"></i><a
+                    href="#aBout">about</a>
+            </li>
+            <li class="link"><i id="conn" class="fa-solid fa-phone-volume" style="color: #c77529;"></i><a
+                    href="#contact">contact</a></li>
+            <button class="btn1">log in</button>
+            <button class="btn">sign up</button>
+        </ul>
+        <div class="buttons">
+            <button class="btn1">log in</button>
+            <button class="btn">sign up</button>
+        </div>
+
+    </header>
+    <!--end header-->
+
+    <!-- start home -->
+    <section class="home" id="hOme">
+        <div class="container">
+
+            <div class="info">
+                <h1 class="head">Gain Insights with Heatmap Analytics on Photos.Unlock the Power of Visual Attention
+                    with Our AI-Driven Heatmaps</h1>
+                <p>Understand where viewers focus their attention on your images instantly. Optimize your visuals before
+                    sharing them to ensure maximum engagement. Improve your content strategy by fine-tuning photos based
+                    on actual user interaction, platform requirements, and more.</p>
+
+            </div>
+
+            <img src="images/heatmap.png" alt="">
+        </div>
+        <div class="btns"><button class="btnhome">Try it for free
+            </button>
+            <button onclick="location.href='#deMo'" class="btnhome2"><i class="fa-regular fa-circle-play"
+                    style="color: #c77529;"></i><span>View
+                    Demo</span>
+            </button>
+        </div>
+    </section>
+    <!-- end home -->
+
+    <!-- start services -->
+    <section class="serv" id="services">
+        <div class="containerServ">
+            <h1>Services</h1>
+            <div class="group">
+                <div class="srv">
+                    <i class="fa-solid fa-wand-magic-sparkles" style="color: #c25105;"></i>
+                    <h2>Transforming Data</h2>
+                    <p>Images are being converted into heat map images that show the designer the most important parts
+                        of the image that attract users' attention.</p>
+                </div>
+                <div class="srv">
+                    <i class="fa-solid fa-eye" style="color: #8018e7;"></i>
+                    <h2>Transforming Data</h2>
+                    <p>Images are being converted into heat map images that show the designer the most important parts
+                        of the image that attract users' attention.</p>
+                </div>
+                <div class="srv">
+                    <i class="fa-solid fa-splotch" style="color: #16a10c;"></i>
+                    <h2>Transforming Data</h2>
+                    <p>Images are being converted into heat map images that show the designer the most important parts
+                        of the image that attract users' attention.</p>
+                </div>
+                <div class="srv">
+                    <i class="fa-solid fa-crown" style="color: #FFD43B;"></i>
+                    <h2>Transforming Data</h2>
+                    <p>Images are being converted into heat map images that show the designer the most important parts
+                        of the image that attract users' attention.</p>
+                </div>
+                <div class="srv">
+                    <i class="fa-solid fa-vector-square" style="color: #276add;"></i>
+                    <h2>Transforming Data</h2>
+                    <p>Images are being converted into heat map images that show the designer the most important parts
+                        of the image that attract users' attention.</p>
+                </div>
+                <div class="srv">
+                    <i class="fa-solid fa-pen-ruler" style="color: #ba0d94;"></i>
+                    <h2>Transforming Data</h2>
+                    <p>Images are being converted into heat map images that show the designer the most important parts
+                        of the image that attract users' attention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+    <!-- start about -->
+    <section class="about" id="aBout">
+        <div class="mix">
+            <div class="image-section">
+                <div class="image-grid">
+                    <div class="image-item large">
+                        <img src="images/heatmapAbout.jpg" alt="">
+                    </div>
+                    <div class="image-item small top-right">
+                        <img src="images/coffeeShop.jpg">
+                    </div>
+                    <div class="image-item small bottom-left ">
+                        <img src="images/aboutheat.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="text">
+                <h2>What is an AI-Generated heatmaps?</h2>
+                <p class="one">AI-powered photo heatmaps utilize advanced deep learning models to analyze visual focus
+                    and
+                    engagement on your images. By providing a graphical representation of where attention is
+                    concentrated, these heatmaps can reveal which areas of your photo are most captivating, which
+                    elements draw the eye, and which portions are overlooked.
+                </p>
+                <hr>
+                <p class="two"> Our platform offers a user-friendly photo heatmap tool that allows you to upload your
+                    images and
+                    receive instant heatmap feedback. For the most precise and detailed analysis, consider signing up
+                    for our service, which includes additional features to enhance your visual content strategy.
+                </p>
+                <button>Learn More...</button>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- end about -->
+
+    <!--start demo-->
+    <section class="demo" id="deMo">
+        <div class="video">
+            <h1>Demo</h1>
+            <p>Discover how viewers interact with your videos in real-time. Our AI-powered heatmaps provide deep
+                insights into which scenes capture the most attention, helping you optimize your content for maximum
+                impact.</p>
+            <video controls autoplay poster="images/heatmap.png">
+                <source src="images/InShot_٢٠٢٤٠٨٢١_٢١١٧٥٣٩٣٩.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="continer">
+            <div class="logo">
+                <div class="big">
+                    <div class="imlogo">
+                        <img src="images/logo-removebg-preview.png" alt="">
+                        <span>InsightGaze</span>
+                    </div>
+                    <div class="copy">
+                        <p>Eye-tracking AI to predict where viewers will focus in your images. Generate a heatmap for
+                            quick
+                            and
+                            clear visual insights.</p>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook" style="color: #e0901f;"></i>
+
+                            <i class="fa-brands fa-twitter" style="color: #e0901f;"></i>
+                            <i class="fa-brands fa-instagram" style="color: #e0901f;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: #e0901f;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+
+                    <h3>Our Services</h3>
+                    <div class="head">
+                        <i class="fa-solid fa-circle-check" style="color: #dd9b0e;"></i>
+                        <span>Eye-tracking</span>
+                    </div>
+                    <div class="head">
+                        <i class="fa-solid fa-circle-check" style="color: #dd9b0e;"></i>
+                        <span>Heatmaps</span>
+                    </div>
+                    <div class="head">
+                        <i class="fa-solid fa-circle-check" style="color: #dd9b0e;"></i>
+                        <span>Reports</span>
+                    </div>
+                    <div class="head">
+                        <i class="fa-solid fa-circle-check" style="color: #dd9b0e;"></i>
+                        <span>Tool Integration</span>
+                    </div>
+                </div>
+                <div class="service">
+                    <h3>Our Support</h3>
+                    <div class="head">
+                        <i class="fa-solid fa-sun" style="color: #f09b24;"></i>
+                        <span>Services</span>
+                    </div>
+                    <div class="head">
+                        <i class="fa-solid fa-sun" style="color: #f09b24;"></i>
+                        <span>FAQs</span>
+                    </div>
+                    <div class="head">
+                        <i class="fa-solid fa-sun" style="color: #f09b24;"></i>
+                        <span>Contact</span>
+                    </div>
+                    <div class="head">
+                        <i class="fa-solid fa-sun" style="color: #f09b24;"></i>
+                        <span>Terms</span>
+                    </div>
+                </div>
+                <div class="service">
+
+                    <h3>Contact Info</h3>
+                    <div class="email">
+                        <div class="head"> <i class="fa-solid fa-envelope" style="color: #f49325;"></i>
+                            <p>Email Address</p>
+                        </div>
+                        <span class="small">Info@websiteinfo.com</span>
+                    </div>
+
+                    <div class="address">
+                        <div class="head">
+                            <i class="fa-solid fa-location-dot" style="color: #d38c12;"></i>
+                            <p>Address</p>
+                        </div>
+                        <span class="small">99 Rioville St.Big City</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+    </footer>
+    <section class="footer">
+        <p>&copy; copyright @ 2024 || <span>Codex Team</span> <i class="fa-solid fa-heart" style="color: black;"></i>
+        </p>
+    </section>
+    <!--end footer-->
+    <script src="main.js"></script>
+</body>
+
+</html>
