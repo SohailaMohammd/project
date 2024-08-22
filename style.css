@@ -101,6 +101,7 @@ header {
     .btn1 {
         width: 76%;
         margin: 0px 31px;
+        margin-bottom: 30px;
     }
 
     .btn1:hover {
@@ -210,7 +211,7 @@ ul li {
     ul {
         gap: 33px;
         margin-left: 65px;
-        margin-right: 10px;
+        /*margin-right: 10px;*/
 
         li {
             text-align: center;
@@ -675,21 +676,22 @@ ul li {
     }
 
     .image-item.large {
-        width: 185px;
+        width: 145px;
         margin-right: 131px;
     }
 
     .image-item.top-right {
         top: -1px;
-        right: -27px;
+        right: 3px;
+        width: 120px;
     }
 
     .image-item.bottom-left {
         bottom: 0px;
-        left: 190px;
+        left: 147px;
         z-index: 2;
         height: 208px;
-        width: 154px;
+        width: 134px;
     }
 }
 
@@ -855,7 +857,7 @@ footer::before {
         content: "";
         position: absolute;
         width: 100%;
-        height: 83%;
+        height: 86%;
         background-color: #00304985;
         justify-content: center;
         align-items: center;
@@ -864,6 +866,10 @@ footer::before {
         transition: all 0.3s ease;
         opacity: 1;
         left: 1px;
+    }
+
+    footer .continer {
+        padding: 0px 26px;
     }
 
     footer .continer .logo {
